@@ -1,7 +1,10 @@
 {
   "name": "bfx-challenge",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/client.js",
+  "scripts": {
+    "start": "node src/client.js"
+  },
   "license": "MIT",
   "dependencies": {
     "grenache-nodejs-http": "^0.7.12",
